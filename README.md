@@ -1,6 +1,10 @@
 Aplicacion BBDD alumnos
 
 Bienvenido!
+Esta es una app de escritorio pensada para manejar la base de datos de un instituto en el que una vez trabaje. La idea es poder llevar a cabo el proceso de pagos de los alumnos. Mediante la app, se puede ver que alumnos forman parte de la institucion, a que curso pertence cada uno, los precios y horarios de dichos cursos, los meses que el alumno adeuda en caso que asi sea, y los datos mas relevantes de los alumnos.
+El administrador/a podra Buscar, Actualizar, Agregar, y Borrar registros y a su vez, registrar los pagos de los alumnos en la BBDD, e imprimir el comprobante de pago.
+
+
 El primer paso para poder ejecutar la app, deberás descomprimir el archivo a un directorio con el nombre de tu preferencia.
 
 En segundo lugar, y antes de ejecutar la app, será necesario instalar una serie de paquetes que la app va a necesitar para correr, por ej: pandas, jinja2, pdfkit... Para ello, recomendamos crear un virtual environment, y ejecutar el comando  << pip install -r requirements.py >> en tu carpeta de proyecto.
