@@ -1,0 +1,5 @@
+invoice.py genera el pdf con la factura y lo abre para su impresion
+
+1- instalar wkhtmltopdf desde la web oficial (https://wkhtmltopdf.org/downloads.html) 
+2- reemplazar la variable path_wkhtmltopdf por la ubicacion absoluta del ejecutable .exe (en general sera: "C:/Program Files/wkhtmltopdf/bin/wkhtmltopdf.exe")
+3- por ultimo en la funcion open_pdf_with_default_reader, reemplazar el string del path absouluto al documento pdf (donde este almacenado dicho pdf)

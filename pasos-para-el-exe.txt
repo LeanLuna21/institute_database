@@ -1,0 +1,8 @@
+Instalar pyinstaller ejecutando: pip install pyinstaller
+
+Ejecutar por consola: pyinstaller --windowed -i favicon.ico interface.py
+
+Deberias mover los archivos creados a una carpeta donde vayas a almacenar la app. No olvides mover la carpeta venv tambien para que los comandos corran
+Luego:
+Agregar carpeta 'resources' al directorio donde se genera el '.exe'
+Agregar tambien el documento invoice.py que es el que genera los pdf
