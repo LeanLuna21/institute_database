@@ -1,0 +1,83 @@
+<div class="page">
+    <div class="page-container">Recibo</div>
+    <div class="logo-container"><img style="height: 80px;"
+            src="https://i.argentino.com.ar/images/2016/0112/906613-cultural-inglesa-alas-20160112063651569.jpg"
+            /></div>
+    <table class="invoice-info-container" style="height: 71px; width: 426px;">
+        <tbody>
+            <tr style="height: 17px;">
+                <td class="client-name" style="height: 35px; width: 251.919px;" rowspan="2">{{alumno_nombre}} </td>
+                <td style="height: 35px; width: 251.919px;" rowspan="2">Legajo n&deg; {{legajo}}</td>
+                <td style="height: 17px; width: 159.594px;">Cultural Inglesa Alas</td>
+            </tr>
+            <tr style="height: 18px;">
+                <td style="height: 18px; width: 159.594px;">El Vinal 4</td>
+            </tr>
+            <tr style="height: 18px;">
+                <td style="height: 18px; width: 251.919px;">Fecha Recibo: <strong>{{fecha_actual}}</strong></td>
+                <td style="height: 18px; width: 159.594px;">Cdad. Evita, CP1778</td>
+            </tr>
+            <tr style="height: 18px;">
+                <td style="height: 18px; width: 251.919px;">Recibo N&deg;: <strong>{{nro_recibo}}</strong></td>
+                <td style="height: 18px; width: 159.594px;">mail@mail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="line-items-container">
+        <thead>
+            <tr>
+                <th class="heading-quantity">&nbsp;</th>
+                <th class="heading-description">Descripcion</th>
+                <th class="heading-price">&nbsp;</th>
+                <th class="heading-subtotal">Subtotal</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>&nbsp;</td>
+                <td>{{item1}}</td>
+                <td class="right">&nbsp;</td>
+                <td class="bold">{{subtotal1}}</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>{{item2}}</td>
+                <td class="right">&nbsp;</td>
+                <td class="bold">{{subtotal2}}</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>{{item3}}</td>
+                <td class="right">&nbsp;</td>
+                <td class="bold">{{subtotal3}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="line-items-container has-bottom-border">
+        <thead>
+            <tr>
+                <th style="width: 183.991px;">Info de pago</th>
+                <th style="width: 98.9995px;">Mes corriente</th>
+                <th style="width: 107.991px;">Total a pagar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="payment-info" style="width: 183.991px;">
+                    <div>Account No: <strong>123567744</strong></div>
+                    <div>Routing No: <strong>120000547</strong></div>
+                </td>
+                <td class="large" style="width: 98.9995px;">&nbsp;{{mes}}</td>
+                <td class="large total" style="width: 107.991px;">&nbsp;{{total}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="footer">
+        <div class="footer-info">&nbsp;</div>
+        <div class="footer-info">mail@mail.com | 01131409090 | @culturalinglesaalas_</div>
+        <div class="footer-info">&nbsp;</div>
+        <div class="footer-thanks"><img src="https://github.com/anvilco/html-pdf-invoice-template/raw/main/img/heart.png"
+                alt="heart" />Thank you!</div>
+    </div>
+
+</div>
